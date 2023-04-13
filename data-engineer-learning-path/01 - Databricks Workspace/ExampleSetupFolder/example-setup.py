@@ -25,3 +25,12 @@ my_name = None
 
 example_df = spark.range(16)
 
+
+# COMMAND ----------
+
+my_name = "Petro Chikhrai"
+
+# COMMAND ----------
+
+my_name = "Petro Chikhrai" 
+f"{my_name}" if my_name != None else my_name
